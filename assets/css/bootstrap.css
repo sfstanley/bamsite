@@ -1952,12 +1952,15 @@ pre code {
   }
   .col-md-6 {
     width: 50%;
+    margin-top: 20px;
+
   }
   .col-md-5 {
     width: 41.66666667%;
   }
   .col-md-4 {
     width: 33.33333333%;
+    margin-top: 20px;
   }
   .col-md-3 {
     width: 25%;
@@ -4865,8 +4868,9 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: white;
-  background-color: #66C2FF;
-  height: 500px;
+  background-image: url("file:///Users/sydneestanley/Documents/IEOR\ 170/bamsite/assets/img/BAM.png");
+  background-size: cover;
+  height: 600px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -6596,10 +6600,24 @@ button.close {
 .team_photo {
   width: 160px; 
   height: 160px; 
+  display: block;
   border-radius: 150px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.section_header {
+  text-align: center;
+}
+
+#whitespace {
+  height: 345px;
+}
+
+#bam_header {
+  margin-top: 70px;
+  text-shadow: .5px .5px #1A2530;
 }
 /*# sourceMappingURL=bootstrap.css.map */
