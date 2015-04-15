@@ -6621,21 +6621,24 @@ button.close {
 }
 
 .about_img {
-  width: 200px; 
-  height: 200px; 
+  width: 250px; 
+  height: 250px; 
 }
 
 .about_header {
   font-weight: bold;
   font-size: 23px;
+  text-align: center;
 }
 
 #build_header {
+  margin-top: 50px;
   color: #C80000;
 }
 
 #active_header {
   color: #04BAD3;
+  margin-top: 30px;
 }
 
 #music_header {
