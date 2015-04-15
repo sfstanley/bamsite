@@ -6620,4 +6620,9 @@ button.close {
   margin-top: 70px;
   text-shadow: .5px .5px #1A2530;
 }
+
+#build_img {
+  width: 200px; 
+  height: 200px; 
+}
 /*# sourceMappingURL=bootstrap.css.map */
