@@ -4866,7 +4866,6 @@ a.badge:focus {
 }
 .jumbotron {
   padding: 30px 15px;
-  margin-bottom: 30px;
   color: white;
   background-image: url("../images/BAM.png");
   background-size: cover;
@@ -6613,7 +6612,7 @@ button.close {
 }
 
 #whitespace {
-  height: 350px;
+  height: 300px;
 }
 
 #bam_header {
@@ -6621,8 +6620,25 @@ button.close {
   text-shadow: .5px .5px #1A2530;
 }
 
-#build_img {
+.about_img {
   width: 200px; 
   height: 200px; 
+}
+
+.about_header {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#build_header {
+  color: #C80000;
+}
+
+#active_header {
+  color: #04BAD3;
+}
+
+#music_header {
+  color: #8BD603;
 }
 /*# sourceMappingURL=bootstrap.css.map */
